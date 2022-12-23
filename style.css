@@ -1,0 +1,149 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: rgb(63, 62, 139);
+    align-items: center;
+}
+ul{
+    list-style: none; 
+}
+li{
+    display: inline;   
+}
+a{
+    text-decoration: none;
+    color: #f9f6f6;
+    padding: 15px;
+}
+.logo{
+    color: #f9f6f6;
+    font-size: larger;
+    padding: 15px;
+}
+.sec1{
+    background-color: rgb(176, 239, 218);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 300px;
+    flex: 1;
+}
+.left{
+    margin-right: 10%;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    padding-right: 10px;
+   
+    
+}
+.right{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(92, 131, 118);
+    width: 400px;
+    height: 150px;
+}
+.awe{
+    color: rgb(215, 151, 151);
+    font-size: xx-large;
+    padding-bottom: 10px;
+    font-weight: bolder;
+}
+button{
+    background-color: blue;
+    color: #f9f6f6;
+}
+.sign{
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+.sec2{
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(194, 242, 205);
+    
+}
+.cards{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+.head{
+    align-self: center;
+}
+.card{
+    height: 150px;
+    width: 150px;
+    border: solid 2px blue;
+    margin: 25px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.sec3{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(212, 241, 241);
+}
+.ins{
+    align-self: center;
+    font-size: xx-large;
+    max-width: 600px;
+    font-style: italic;
+    margin: 35px;
+    
+}
+.thor{
+   
+    display: flex;
+    flex-direction: column;
+}
+.odin{
+    align-self: flex-end;
+    padding: 10px;
+}
+.sec4{
+    background-color: aliceblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.blb{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: blue;
+    height: 100px;
+    width: 50%;
+    margin: 10%;
+    border-radius: 10px;
+}
+.tex{
+    color: #f9f6f6;
+}.call{
+    font-size: large;
+}
+.signup{
+    border: solid #f9f6f6;
+    border-radius: 7px;
+    height: 30px;
+    width: 80px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:darkcyan ;
+    height: 60px;
+}.sub{
+    color: rgb(106, 118, 114);
+}
